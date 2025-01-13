@@ -1,0 +1,33 @@
+.container{
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    height: 900px;
+
+    display: grid;
+    
+    grid-template-columns: 900px;
+    grid-template-rows: 40px , 200px , 400px , 40px;
+
+    grid-area: 
+    header,
+    footer,
+    content,
+    sidebare;
+
+}
+
+.box{
+     border: 1px solid black;
+     background-color: aquamarine;
+     /* height: 100px;
+     width: 100px; */
+
+}
+
+#header{
+    grid-area: header ;
+}
+
+#content{
+    grid-area: footer;
+}
